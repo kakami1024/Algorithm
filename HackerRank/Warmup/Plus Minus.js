@@ -22,5 +22,3 @@ function plusMinus(arr) {
   console.log(negative.toFixed(6));
   console.log(zero.toFixed(6));
 }
-let arr = [-4, 3, -9, 0, 4, 1];
-plusMinus(arr)
