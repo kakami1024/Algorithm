@@ -50,4 +50,4 @@ function recursion(count, bucket) {
     recursion(count - 1, bucket.concat(pick));
   }
 }
-console.log(recursion(3, []));
+recursion(3, [])
